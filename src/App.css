@@ -40,7 +40,7 @@
 #projectImage {
   height: 640px;
   width: 480px;
-  justify-content: center;
+  text-align: center;
 }
 
 #profpic {
