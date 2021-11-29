@@ -42,8 +42,9 @@
   width: 480px;
 }
 
-#profilepic {
+#profpic {
   width: 400px;
   height: 300px;
   border: solid;
+  border-radius: 60%;
 }
