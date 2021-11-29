@@ -41,3 +41,9 @@
   height: 640px;
   width: 480px;
 }
+
+#profilepic {
+  width: 400px;
+  height: 300px;
+  border: solid;
+}
