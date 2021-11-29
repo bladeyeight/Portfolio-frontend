@@ -52,3 +52,8 @@
   border-radius: 60%;
 }
 
+#pagefooter {
+  border-top: solid;
+  font-size: medium;
+}
+
