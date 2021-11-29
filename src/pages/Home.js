@@ -13,6 +13,7 @@ function Home(props) {
       <li>Ruby</li>
       <li>Rails</li>
       <li>SQL</li>
+      <li>Docker</li>
       <li>C#</li>
       <li>MongoDB</li>
       <li>postgres</li>
