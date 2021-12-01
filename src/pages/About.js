@@ -1,33 +1,12 @@
 import { useState, useEffect } from "react";
 
 function About(props) {
-  // create state to hold about data
-  const [about, setAbout] = useState(null);
-
-  // create function to make api call
-  const getAboutData = async () => {
-    // make api call and get response
-    const response = await fetch(props.URL + "about");
-    // turn response into javascript object
-    const data = await response.json();
-    // set the about state to the data
-    setAbout(data);
-  };
-
-  // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getAboutData(), []);
-
-  // define a function that will return the JSX needed once we get the data
-  const loaded = () => (
-    <div>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
-    </div>
-  );
-
-  // if data arrives return the result of loaded, if not, an h1 that says loading
-  return about ? loaded() : <h1>Loading...</h1>;
+ return (
+   <div>
+     <h1>Sam Perry</h1>
+     <p>Sam Perry is a Washington DC based Software Engineer who graduated from the College of William and Mary in 2013 and General Assembly in 2021 with a decade of experience in customer-facing sales and problem-solving.  Dedicated to leveraging skills in communication and full-stack development to connect people to solutions, whether they be coworkers or customers.</p>
+   </div>
+ )
 }
 
 export default About;
