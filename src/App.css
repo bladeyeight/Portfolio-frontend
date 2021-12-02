@@ -37,6 +37,11 @@
   }
 }
 
+@font-face {
+  font-family: 'Space Mono';
+  src: url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap) form('truetype');
+}
+
 #projectImage {
   height: 640px;
   width: 480px;

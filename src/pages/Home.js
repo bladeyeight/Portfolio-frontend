@@ -2,7 +2,7 @@ function Home(props) {
     return (
     <div>
       <h1></h1>
-    <img id = "profpic" src = "https://media-exp1.licdn.com/dms/image/C4D03AQGII6sWXkmzxw/profile-displayphoto-shrink_800_800/0/1588787823310?e=1643846400&v=beta&t=7hqqZdsVi51ab55gNNVB61rSZhH6R1uZrK3guRHGsgw"></img>
+    <img id = "profpic" src = "https://www.facebook.com/photo/?fbid=2197014510343728&set=a.133253146719885"></img>
     <ul id = "techlist"> Proficient In:
       <li>HTML</li>
       <li>CSS</li>
