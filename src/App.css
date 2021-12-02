@@ -37,9 +37,8 @@
   }
 }
 
-@font-face {
-  font-family: 'Space Mono';
-  src: url(https://www.1001fonts.com/download/font/digital-dream.regular.ttf) form('truetype');
+.App {
+  font-family: 'Space+Mono:wght@700';
 }
 
 #projectImage {
