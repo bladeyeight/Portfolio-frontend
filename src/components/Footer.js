@@ -29,7 +29,6 @@ margin: 30px 20px 10px;
 `
 const Icon = styled.a`
 font-size: 40px;
-color: white;
 margin: 0 30px 20px;
 transition: transform 150ms;
         &:hover{
