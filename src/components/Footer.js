@@ -1,7 +1,8 @@
+import React from "react"
+import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-
 
 const Footer = () => {
   return (
@@ -9,13 +10,12 @@ const Footer = () => {
     <FooterContainer id="contact">
       <ContactMe>Contact me</ContactMe>
       <FooterLinks>
-        <Icon target="blank" href="mailto:dbov93@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></Icon>
-        <Icon target="blank" href="https://www.linkedin.com/in/dannyyacks/"><FontAwesomeIcon icon={faLinkedin} /></Icon>
-        <Icon target="blank" href="https://github.com/Aviakubo"><FontAwesomeIcon icon={faGithub} /></Icon>
+        <Icon target="blank" href="mailto:samueljperry1991@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></Icon>
+        <Icon target="blank" href="https://www.linkedin.com/in/samueljamesperry/"><FontAwesomeIcon icon={faLinkedin} /></Icon>
+        <Icon target="blank" href="https://github.com/bladeyeight"><FontAwesomeIcon icon={faGithub} /></Icon>
       </FooterLinks>
 
       <Contact>I'm currently available to work</Contact>
-      <Copy>	&copy; David Yakubov 2021</Copy>
     </FooterContainer>
 
   )
@@ -60,4 +60,4 @@ display: flex;
 flex-direction: column;
 `
 
-export default Footer
+export default Footer;
