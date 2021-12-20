@@ -41,6 +41,11 @@
   font-family: 'Space+Mono:wght@700';
 }
 
+a {
+  text-decoration: none;
+  color: navy;
+}
+
 #projectImage {
   height: 640px;
   width: 480px;

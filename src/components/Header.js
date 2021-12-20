@@ -10,7 +10,8 @@ function Header(props) {
     width: "90%",
     margin: "auto",
     backgroundColor: "gray",
-    textDecoration: "none"
+    textDecoration: "none",
+    color: "blue"
   };
 
   return (
