@@ -15,7 +15,7 @@ const Footer = () => {
         <Icon target="blank" href="https://github.com/bladeyeight"><FontAwesomeIcon icon={faGithub} /></Icon>
       </FooterLinks>
 
-      <Contact>I'm currently available to work</Contact>
+      <Contact>Need help coding? Call me at (804)356-5005</Contact>
     </FooterContainer>
 
   )
