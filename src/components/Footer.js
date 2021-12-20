@@ -20,17 +20,12 @@ const Footer = () => {
 
   )
 }
-const Copy = styled.div`
-font-family: 'Roboto Condensed', sans-serif;
-display: flex;
-justify-content: center;
-`
+
 const ContactMe = styled.div`
 font-size: 30px;
 display: flex;
 justify-content: center;
 margin: 30px 20px 10px;
-color: ${props => props.theme.headline};
 `
 const Icon = styled.a`
 font-size: 40px;
@@ -53,11 +48,9 @@ font-family: 'Roboto Condensed', sans-serif;
 font-weight: bold;
 `
 const FooterContainer = styled.div`
-background-color: ${props => props.theme.footer};
-color: white;
 height: 300px;
 display: flex;
 flex-direction: column;
 `
 
-export default Footer;
+export default Footer
