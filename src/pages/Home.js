@@ -15,6 +15,8 @@ function Home(props) {
       <li>SQL</li>
       <li>Docker</li>
       <li>C#</li>
+      <li>Java</li>
+      <li>Spring Boot</li>
       <li>MongoDB</li>
       <li>postgres</li>
     </ul>
