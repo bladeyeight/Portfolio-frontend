@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import data from "../projects.json"
 
 function Projects(props) {
   // create state to hold projects
@@ -6,11 +7,6 @@ function Projects(props) {
 
   //create function to make api call
   const getProjectsData = async () => {
-    //make api call and get response
-    const response = await fetch(props.URL + "projects");
-    // turn response into javascript object
-    const data = await response.json();
-    // set the projects state to the data
     setProjects(data);
   };
 
