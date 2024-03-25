@@ -20,7 +20,7 @@ function Header(props) {
           <div>HOME</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div>CERTIFICATIONS & ABOUT ME</div>
         </Link>
         <Link to="/projects">
           <div>SIDE-PROJECTS</div>
