@@ -18,10 +18,10 @@ function Projects(props) {
     return projects.map((project) => (
       <div id = "allProjects">
         <a href={project.git}>
-          <button>Github</button>
+          <button style={{ marginTop: '20px' }}>Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button style={{ marginTop: '20px' }}>live site</button>
         </a>
         <h1>{project.name}</h1>
         <img id = "projectImage" src={project.image} />
