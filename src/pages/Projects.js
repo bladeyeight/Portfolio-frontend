@@ -17,14 +17,14 @@ function Projects(props) {
   const loaded = () => {
     return projects.map((project) => (
       <div id = "allProjects">
-        <h1>{project.name}</h1>
-        <img id = "projectImage" src={project.image} />
         <a href={project.git}>
           <button>Github</button>
         </a>
         <a href={project.live}>
           <button>live site</button>
         </a>
+        <h1>{project.name}</h1>
+        <img id = "projectImage" src={project.image} />
       </div>
     ));
   };
